@@ -1,0 +1,84 @@
+.my-infor-left>ul{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+}   
+.my-infor-left>ul>li{
+    width: 100%;
+    font-size: small;
+    height: 30px;
+    margin: 0;
+}
+.my-infor-left{
+    display: inline-block;
+    width: 350px;
+    position: absolute;
+    margin-top: 0px;
+}
+.my-infor-left>ul>li>a{
+    text-decoration: none;
+}
+.my-infor-left>ul>li>a:hover{
+    color: orangered;
+}
+.my-infor-left2>ul{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+}   
+.my-infor-left2>ul>li{
+    width: 100%;
+    font-size: small;
+    height: 30px;
+    margin: 0;
+}
+.my-infor-left2{
+    display: inline-block;
+    width: 350px;
+    position: absolute;
+    left: 340px;
+    margin-top: 0px;
+}
+.my-infor-left2>ul>li>a{
+    text-decoration: none;
+}
+.my-infor-left2>ul>li>a:hover{
+    color: orangered;
+}
+.my-infor-left3>ul{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+}   
+.my-infor-left3>ul>li{
+    width: 100%;
+    font-size: small;
+    height: 30px;
+    margin: 0;
+}
+.my-infor-left3{
+    display: inline-block;
+    width: 350px;
+    position: absolute;
+    left: 680px;
+    margin-top: 0px;
+}
+.my-infor-left3>ul>li>a{
+    text-decoration: none;
+}
+.my-infor-left3>ul>li>a:hover{
+    color: orangered;
+}
+footer iframe{
+    position: absolute;
+    left: 1020px;
+}
+footer{
+    clear: both;
+    min-width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-top: 5px double orangered;
+    line-height: 50px;
+    font-variant: small-caps
+}

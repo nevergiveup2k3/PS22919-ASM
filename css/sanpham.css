@@ -1,0 +1,40 @@
+.box{
+    width: 20%;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px 10px 20px 20px;
+    box-shadow: 0px 0px 5px wheat;
+    float: left;
+    position: relative;
+}
+.box .name{
+    position: absolute;
+    left: 71px;
+    top: 6px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.box img{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top:29px;
+    left:30px;
+}
+.box .price{
+    position: absolute;
+    left: 91px;
+    bottom: 4px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.box:hover{
+    box-shadow: 0px 0px 10px red;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
